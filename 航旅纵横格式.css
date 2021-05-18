@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+
+video{
+     position:relative;
+    left:46%;
+    top:8%;
+    margin:auto;
+}
+
+
+img{
+    position:relative;
+    left:46%;
+    top:8%;
+    margin:-70px 0 0 -70px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("images/大兴机场.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: -50px;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+
+<video width="300" height="500" controls="controls" autoplay="autoplay">
+<source src="航旅纵横.mp4" type="video/ogg" />
+<img src="images/航班具体情况.png" width="270" height="500">
+
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="index 图片格式.css">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+/* 设置页眉的样式 */
+.header {
+  background-color: #f7dd8a80;
+  padding: 20px;
+  text-align: center;
+  color: rgb(250, 250, 250);
+  font-size: 25px;
+  
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>实用软件推荐</h1>
+</div>
+
+</body>
+</html>
+
+<html>
+   
+    <body background="images/导航页背景图1.png">
+
+    <head>
+        <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgba(243, 224, 118, 0.342);
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: rgb(83, 79, 79);
+        }
+        
+        .active {
+          background-color: #4CAF50;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a href="index.html">index</a></li>
+          <li><a href="1.老照片修复.html">老照片修复</a></li>
+          <li><a href="2.航旅纵横.html">航旅纵横</a></li>
+          <li><a href="3.地震预警.html">地震预警</a></li>
+        </ul>
+        
+        </body>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <title>CSS 网站布局</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+        /* 创建并排的三个非等列 */
+        .column {
+          float: left;
+          width: 33.3333333%;
+          padding: 15px;
+        }
+        
+        /* 清除列之后的浮动 */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* 响应式布局 - 创建堆叠而非并排的三列 */
+        @media screen and (max-width:1300px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        <div class="row">
+          <div class="column">
+            <h2 style="text-align: center;color: aliceblue;">老照片修复</h2>
+            <img src="images/首页老照片修复.jpg"width="270" height="480">
+
+            <style>
+                img {
+                  opacity: 0.8;
+                }
+                
+                img:hover {
+                  opacity: 1.0;
+                }
+                </style>
+            <p style="text-align: center;color: aliceblue;font-size: 20px;font-weight: bolder;">修复老照片，重拾美好回忆！</p>
+          </div>
+          
+          <div class="column">
+            <h2 style="text-align: center;color: aliceblue;">航旅纵横</h2>
+           <img src="images/首页飞机.jpg" width="270" height="480">
+           <style>
+            img {
+              opacity: 0.8;
+            }
+            
+            img:hover {
+              opacity: 1.0;
+            }
+            </style>
+            <p style="text-align: center;color: aliceblue;font-size: 20px;font-weight: bolder;">去旅行，去追寻美好~</p>
+          </div>
+          
+          <div class="column">
+            <h2 style="text-align: center;color: aliceblue;">地震预警</h2>
+            <img src="images/首页地震预警.jpg" width="270" height="480">
+            <style>
+                img {
+                  opacity: 0.8;
+                }
+                
+                img:hover {
+                  opacity: 1.0;
+                }
+                </style>
+            <p style="text-align: center;color: aliceblue;font-size: 20px;font-weight: bolder;"> 预警地震，守护生命！</p>
+          </div>
+        </div>
+        
+        </body>
+        </html>
+        
+    
+</html>

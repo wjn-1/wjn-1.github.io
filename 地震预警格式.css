@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+
+
+img{
+    position:relative;
+    left:46%;
+    top:8%;
+    margin:-70px 0 0 -70px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("images/地震预警背景.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: -50px;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+
+ <img src="images/地震预警下载界面.jpg">
+
+
+
+</body>
+</html>

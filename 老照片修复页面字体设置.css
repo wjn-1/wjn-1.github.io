@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+
+
+h2 {
+  font-size: 30px;
+}
+
+img{
+    position:relative;
+    left:46%;
+    top:8%;
+    margin:-70px 0 0 -70px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+  color: aliceblue;
+}
+
+body {
+  background-image: url("images/老照片背景1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: -50px;
+  background-attachment: fixed;
+}
+
+</style>
+</head>
+<body>
+
+<h2>老照片修复</h2>
+
+<img src="images/1. 软件界面.png">
+<img src="images/1. 软件界面.png" width="270" height="500">
+
+</body>
+</html>
